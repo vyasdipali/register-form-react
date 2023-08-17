@@ -33,7 +33,7 @@ const Sing = () => {
     registerData.push({
       name: name,
       email: email,
-      password: password,s
+      password: password,
     });
 
     window.localStorage.setItem("Register", JSON.stringify(registerData));
