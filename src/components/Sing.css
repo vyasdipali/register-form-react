@@ -1,0 +1,88 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+
+  .sing-first-div {
+    width: 367px;
+    height: 550px;
+    border: 2px solid black;
+    font-size: 17px;
+    overflow: hidden;
+  }
+  .sing-clr {
+    overflow: hidden;
+    width: 366px;
+    height: 315px;
+  }
+  .form-sing-div {
+    position: absolute;
+    margin-top: -9pc;
+    margin-left: 53px;
+  }
+  .name {
+    width: 250px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 6px;
+    font-size: 17px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  .email {
+    width: 250px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 6px;
+    font-size: 17px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  .password {
+    width: 250px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 6px;
+    font-size: 17px;
+  }
+  .sing-create-div {
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: -19pc;
+  }
+  .sing-circle-class {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+  }
+  .sing-in {
+    color: black;
+    font-size: 30px;
+    border: none;
+    background: none;
+    margin-inline-start: -45px;
+  }
+  .sing-circle {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 38px;
+    align-items: center;
+  }
+  .last-div-sign {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+  }
+  .sign-btn-div {
+    font-size: 35px;
+    color: rgb(15, 14, 14);
+
+    margin-left: 20px;
+    margin-top: 5pc;
+    padding-top: 65px;
+  }
+}

@@ -1,0 +1,74 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+
+  .first-div {
+    width: 365px;
+    height: 635px;
+    border: 2px solid black;
+    font-size: 17px;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  .clr-div {
+    overflow: hidden;
+    width: 366px;
+    height: 372px;
+  }
+  .filed-div {
+    display: flex;
+    justify-content: center;
+  }
+  .email {
+    width: 250px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 6px;
+    font-size: 17px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  .password {
+    width: 250px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 6px;
+    font-size: 17px;
+  }
+  .welcome-class {
+    font-size: 35px;
+    color: white;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 7pc;
+    padding-top: 65px;
+  }
+  .sing-circle-class {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+  }
+  .sing-login {
+    color: black;
+    font-size: 30px;
+    border: none;
+    background: none;
+    padding-right: 7pc;
+  }
+
+  .last-div {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+  }
+  .login-btn-div {
+    font-size: 35px;
+    color: rgb(15, 14, 14);
+    margin-left: 20px;
+    margin-top: 5pc;
+    padding-top: 65px;
+  }
+}
